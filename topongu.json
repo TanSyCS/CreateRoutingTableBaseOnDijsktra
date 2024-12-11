@@ -1,0 +1,9 @@
+{
+  "nodes": [{ "id": 1 }, { "id": 2 }, { "id": 3 }, { "id": 4 }],
+  "edges": [
+    { "source": 1, "target": 2, "bandwidth": 10, "delay": 0, "packetloss": 0 },
+    { "source": 2, "target": 3, "bandwidth": 15, "delay": 0, "packetloss": 0 },
+    { "source": 3, "target": 4, "bandwidth": 18, "delay": 0, "packetloss": 0 },
+    { "source": 4, "target": 1, "bandwidth": 20, "delay": 0, "packetloss": 0 }
+  ]
+}
